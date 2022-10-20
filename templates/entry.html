@@ -1,0 +1,111 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
+
+
+    <link href="{% static 'js/jquery-ui-1.13.2/jquery-ui.min.css' %}" rel="stylesheet">
+    <link href="{% static 'js/jquery-ui-1.13.2/jquery-ui.structure.min.css' %}" rel="stylesheet">
+    <link href="{% static 'js/jquery-ui-1.13.2/jquery-ui.theme.min.css' %}" rel="stylesheet">
+
+
+    <script src="{% static 'js/jquery-3.6.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui-1.13.2/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/myjs.js' %}"></script>
+
+
+	<title>{{title}}</title>
+</head>
+{% include 'navbar.html' %}
+<body>
+{% if messages %}
+        <ul class="messages">
+               {% for message in messages %}
+                     <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+               {% endfor %}
+       </ul>
+  {% endif %}
+	<div class="myForm">
+    <form method='POST' action='' autocomplete="off">
+        {% csrf_token %}
+        <div class="row">
+            <div class='col-sm-6'>
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    {{ form.invoice_date|as_crispy_field }}
+                    {{ form.name|as_crispy_field }}
+                      {{ form.company_name|as_crispy_field }}
+                  </div>
+
+                  <div class="form-group col-md-6">
+                    {{ form.invoice_number|as_crispy_field }}
+                    {{ form.phone_number|as_crispy_field }}
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    {{ form.line_one|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_one_quantity|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_one_unit_price|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_one_total_price|as_crispy_field }}
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    {{ form.line_two|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_two_quantity|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_two_unit_price|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_two_total_price|as_crispy_field }}
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    {{ form.line_three|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_three_quantity|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_three_unit_price|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-2">
+                    {{ form.line_three_total_price|as_crispy_field }}
+                  </div>
+                </div>
+
+                   <div class="form-row">
+                  <div class="form-group col-md-12">
+                    {{ form.invoice_type|as_crispy_field }}
+                  </div>
+                  <div class="form-group col-md-12">
+                    {{ form.total|as_crispy_field }}
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+
+                <!-- <input type="submit" value='Submit'/>   -->
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
