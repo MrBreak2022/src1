@@ -2,9 +2,18 @@
 <div class="navbar">
 <nav>
     <ul>
-	<li><b><a href="/home">Home</a></b></li>
-	<li><b><a href="/list_invoice">List Invoices</a></b></li>
-        <li><b><a href="/create_invoice">Add Invoices</a></b></li>
+	<li class="bar1"><b><a href="/">Home</a></b></li>
+	<li class="bar1"><b><a href="/list_invoice">Invoices</a></b></li>
+        <li class="bar1"><b><a href="/create_invoice">Create Invoice</a></b></li>
+        <li class="bar1"><b><a href="/list_stock">Items</a></b></li>
+        <li class="bar1"><b><a href="/add_item">Create Item</a></b></li>
+
+        {% if request.user.is_authenticated %}
+ <a href="/accounts/logout"><button class="btn btn-danger">{{ user }} | Logout</button></a>
+{% else %}
+ <a href="/accounts/login"><button class="btn btn-danger">Login</button></a>
+{% endif %}
+
         </ul>
 </nav>
     </div>

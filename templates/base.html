@@ -1,0 +1,21 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
+</head>
+
+<div class="jumbotron">
+  <div class="form-row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4">
+	  {% block title %}
+	  {% endblock %}
+	  {% block content %}
+	  {% endblock %}
+	</div>
+	<div class="col-sm-4"></div>
+  </div>
+</div>

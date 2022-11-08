@@ -15,13 +15,25 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from invoicemgmt import views
+from invoicemgmt.views import *
+from invmgmt.views import list_stock, add_item, delete_stock
+from django.urls import include
+
 
 urlpatterns = [
+    #invoice app
     path('admin/', admin.site.urls),
-	path('home/', views.home, name='home'),
-    path('create_invoice/', views.create_invoice, name='create_invoice'),
-    path('list_invoice/', views.list_invoice, name='list_invoice'),
-    path('delete_invoice/<str:pk>/', views.delete_invoice, name="delete_invoice"),
+	path('', home, name='home'),
+    path('create_invoice/', create_invoice, name='create_invoice'),
+    path('list_invoice/', list_invoice, name='list_invoice'),
+    path('delete_invoice/<str:pk>/', delete_invoice, name="delete_invoice"),
+
+    #inv app
+    path('list_stock/',list_stock, name='list_stock'),
+    path('add_item/', add_item, name='add_item'),
+    path('delete_stock/<str:pk>/', delete_stock, name="delete_stock"),
+
+    #account
+    path('accounts/', include('registration.backends.default.urls')),
 
 ]

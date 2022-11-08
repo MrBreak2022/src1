@@ -1,0 +1,30 @@
+
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
+	<title>{{title}}</title>
+</head>
+{% include 'navbar.html' %}
+<br><br><br>
+<body>
+<h1>Add Item:</h1>
+<div class="myForm">
+    <div class="jumbotron">
+	<form method='POST' action='' autocomplete="off">
+        {% csrf_token %}
+        <div>
+		    {{form.category|as_crispy_field}}
+            {{form.item_name|as_crispy_field}}
+            {{form.quantity|as_crispy_field}}
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+        </div>
+</div>
+</body>
+</html>

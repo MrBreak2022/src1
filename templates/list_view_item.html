@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
+    <title>Inventory List</title>
+</head>
+<body>
+{% include 'navbar.html' %}
+<br><br><br>
+<h1>Inventory List:</h1>
+<table>
+        <thead>
+          <tr>
+              <th>CATEGORY</th>
+            <th>ITEM NAME</th>
+            <th>QUANTITY</th>
+              <th>ACTION</th>
+          </tr>
+        </thead>
+	{% for instance in queryset %}
+        <tr>
+        <td>{{instance.category}}</td>
+	    <td>{{instance.item_name}}</td>
+	    <td>{{instance.quantity}}</td>
+        <td><a class="btn btn-danger" type="submit" href="{% url 'delete_stock' instance.id %}">Delete</a></td>
+        </tr>
+	{% endfor %}
+    </table>
+

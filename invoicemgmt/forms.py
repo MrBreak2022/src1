@@ -15,6 +15,10 @@ class InvoiceForm(forms.ModelForm):
         invoice_number = self.cleaned_data.get('invoice_number')
         if not invoice_number:
             raise forms.ValidationError('This field is required')
+
+        for instance in Invoice.objects.all():
+            if instance.invoice_number == invoice_number:
+                raise forms.ValidationError(str(invoice_number) + ' is already created')
         return invoice_number
 
     def clean_name(self):
@@ -28,12 +32,6 @@ class InvoiceForm(forms.ModelForm):
         if not company_name:
             raise forms.ValidationError('This field is required')
         return company_name
-
-    def clean_invoice_date(self):
-        invoice_date = self.cleaned_data.get('invoice_date')
-        if not invoice_date:
-            raise forms.ValidationError('This field is required')
-        return invoice_date
 
     def clean_phone_number(self):
         phone_number = self.cleaned_data.get('phone_number')

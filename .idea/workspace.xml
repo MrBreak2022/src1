@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9917c3e3-757c-4e26-8048-039213e00ff8" name="Default Changelist" comment="" />
+    <list default="true" id="9917c3e3-757c-4e26-8048-039213e00ff8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/migrations/0002_alter_invoice_invoice_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/static/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/static/js/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete_invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,11 +74,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/invmgmt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Point Break\PycharmProjects\src\invmgmt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Point Break\PycharmProjects\src" />
       <recent name="C:\Users\Point Break\PycharmProjects\src\invoicemgmt" />
@@ -98,7 +140,32 @@
       <workItem from="1666088367982" duration="3120000" />
       <workItem from="1666091868346" duration="505000" />
       <workItem from="1666168813373" duration="6001000" />
-      <workItem from="1666226291484" duration="371000" />
+      <workItem from="1666226291484" duration="1910000" />
+      <workItem from="1666229918562" duration="624000" />
+      <workItem from="1666230589013" duration="716000" />
+      <workItem from="1666231965862" duration="1060000" />
+      <workItem from="1666315410845" duration="1119000" />
+      <workItem from="1666417855155" duration="1237000" />
+      <workItem from="1666482444808" duration="2459000" />
+      <workItem from="1666599102896" duration="7552000" />
+      <workItem from="1666616044249" duration="1408000" />
+      <workItem from="1666654904492" duration="2706000" />
+      <workItem from="1666659116856" duration="345000" />
+      <workItem from="1666659646320" duration="2007000" />
+      <workItem from="1666663041320" duration="16952000" />
+      <workItem from="1666690012947" duration="896000" />
+      <workItem from="1666692528104" duration="328000" />
+      <workItem from="1667274656735" duration="333000" />
+      <workItem from="1667696815668" duration="2726000" />
+      <workItem from="1667700871148" duration="338000" />
+      <workItem from="1667805903498" duration="7509000" />
+      <workItem from="1667817840897" duration="18000" />
+      <workItem from="1667822631737" duration="4702000" />
+      <workItem from="1667862377650" duration="161000" />
+      <workItem from="1667871841907" duration="9897000" />
+      <workItem from="1667888608190" duration="110000" />
+      <workItem from="1667893593623" duration="4792000" />
+      <workItem from="1667898831756" duration="1596000" />
     </task>
     <servers />
   </component>
@@ -106,21 +173,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1665758778697">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667895965499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1665758778697" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1666226655234">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1667895965499" />
+    <state x="437" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1667874432225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1666226655234" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1666226292143">
+    <state x="437" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1667874432225" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1667900360412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1666226292143" />
-    <state x="497" y="53" key="svn.repositoryBrowser" timestamp="1665655997197">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1667900360412" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1667817857553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="497" y="53" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1665655997197" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1667817857553" />
+    <state x="553" y="257" key="Github.ShareDialog" timestamp="1666226886861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1666226886861" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1666226914009">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1666226914009" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1667898834278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1667898834278" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666418911524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1666418911524" />
+    <state x="497" y="53" key="svn.repositoryBrowser" timestamp="1666227175750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="53" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1666227175750" />
   </component>
 </project>
