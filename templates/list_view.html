@@ -39,7 +39,7 @@
 	    <td>{{instance.invoice_date_created}}</td>
 	    <td>{{instance.invoice_type}}</td>
             <td>{{ instance.paid }}</td>
-	    <td>{{instance.total}}</td>
+	    <td> PHP {{instance.total}}</td>
             <td><a class="btn btn-danger" type="submit" href="{% url 'delete_invoice' instance.id %}">Delete</a></td>
         </tr>
 	{% endfor %}

@@ -5,39 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/migrations/0002_alter_invoice_invoice_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/static/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-3.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_444444_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_555555_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_777620_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_777777_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/jquery-ui.theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/jquery-ui-1.13.2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/static/js/myjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/static/js/myjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoicemgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/delete_invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
@@ -76,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/invmgmt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,7 +132,9 @@
       <workItem from="1667871841907" duration="9897000" />
       <workItem from="1667888608190" duration="110000" />
       <workItem from="1667893593623" duration="4792000" />
-      <workItem from="1667898831756" duration="1596000" />
+      <workItem from="1667898831756" duration="3033000" />
+      <workItem from="1667947682223" duration="2027000" />
+      <workItem from="1667989693678" duration="241000" />
     </task>
     <servers />
   </component>
@@ -193,14 +162,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1666226886861" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1666226914009">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1667901054993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1666226914009" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1667898834278">
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1667901054993" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1667901177125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1667898834278" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1667901177125" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1667989706467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1667989706467" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666418911524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
