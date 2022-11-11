@@ -6,7 +6,8 @@
       <change afterPath="$PROJECT_DIR$/../src - Copy/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src - Copy/clientmgmt/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" afterDir="false" />
@@ -174,7 +175,9 @@
       <workItem from="1668155177184" duration="4897000" />
       <workItem from="1668163647761" duration="195000" />
       <workItem from="1668164124339" duration="2556000" />
-      <workItem from="1668167678159" duration="1094000" />
+      <workItem from="1668167678159" duration="1607000" />
+      <workItem from="1668169579458" duration="20000" />
+      <workItem from="1668169618161" duration="50000" />
     </task>
     <servers />
   </component>
