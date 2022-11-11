@@ -9,7 +9,7 @@
 <h1 align="center" ><b>Dashboard</b></h1>
 <div class="container">
     <h1 align="center"><span class="badge badge-secondary badge-pill">Total Invoices: {{total_invoices}}</span></h1>
-    <h1 align="center"><span class="badge badge-danger badge-pill">Total Items: {{total_stocks}}</span></h1>
+    <h1 align="center"><span class="badge badge-danger badge-pill" >Total Items: {{total_stocks}}</span></h1>
 </div>
 
 <div class="MyForm">
@@ -22,10 +22,31 @@
 	  <ul class="list-group mb-3">
 	    <li class="list-group-item d-flex justify-content-between lh-condensed">
 	      <div>
-	        <h6 class="my-0">{{instance.company_name}}</h6><br>
-	        <small class="text-muted">{{instance.invoice_date_created}}</small><br>
+	        <h6 class="my-0">{{instance.name}}</h6><br>
+              <small class="text-muted">{{instance.line_one}}</small><br>
+              <small class="text-muted">{{instance.line_two}}</small><br>
+	        <small class="text-muted">{{instance.line_three}}</small><br>
 	      </div>
-	      <div class="text-muted">PHP {{instance.total}}</div>
+	        <div class="text-muted">{{instance.paid}}</div>
+	    </li>
+	  </ul>
+	  {% endfor %}
+    <a href="{% url 'list_client' %}"><button class="btn btn-info">Client List</button></a>
+	</div>
+</div>
+<div>
+	<div>
+	  <div>
+	    <span class="text-muted">Items:</span>
+	  </div>
+	  {% for instance in queryset1 %}
+	  <ul class="list-group mb-2">
+	    <li class="list-group-item d-flex justify-content-between lh-condensed">
+	      <div>
+	        <h6 class="my-0">{{instance.item_name}}</h6><br>
+	        <small class="text-muted">{{instance.category}}</small><br>
+	      </div>
+	      <div class="text-muted">PHP {{instance.set_price}}</div>
 	    </li>
 	  </ul>
 	  {% endfor %}

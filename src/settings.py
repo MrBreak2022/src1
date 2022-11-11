@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$hckfbvrk(ae%0bnp3=jc^7i2_(e7ot)lihe9n_9)9&xo2&03='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'invoicemgmt',
     'invmgmt',
+    'clientmgmt',
     'crispy_forms',
 ]
 CRISPY_TEMPLATE_PACKAGE = 'bootstrap4'

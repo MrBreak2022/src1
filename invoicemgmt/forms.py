@@ -27,18 +27,6 @@ class InvoiceForm(forms.ModelForm):
             raise forms.ValidationError('This field is required')
         return name
 
-    def clean_company_name(self):
-        company_name = self.cleaned_data.get('company_name')
-        if not company_name:
-            raise forms.ValidationError('This field is required')
-        return company_name
-
-    def clean_phone_number(self):
-        phone_number = self.cleaned_data.get('phone_number')
-        if not phone_number:
-            raise forms.ValidationError('This field is required')
-        return phone_number
-
 class InvoiceSearchForm(forms.ModelForm):
     class Meta:
         model = Invoice

@@ -23,7 +23,7 @@
 <br>
 <br>
 <body>
-
+<div class="jumbotron">
     <h1>Invoice Form:</h1>
 	<div class="myForm">
     <form method='POST' action='' autocomplete="off">
@@ -33,12 +33,10 @@
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     {{ form.name|as_crispy_field }}
-                      {{ form.company_name|as_crispy_field }}
                   </div>
 
                   <div class="form-group col-md-6">
                     {{ form.invoice_number|as_crispy_field }}
-                    {{ form.phone_number|as_crispy_field }}
                   </div>
                 </div>
 
@@ -49,41 +47,19 @@
                   <div class="form-group col-md-2">
                     {{ form.line_one_quantity|as_crispy_field }}
                   </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_one_unit_price|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_one_total_price|as_crispy_field }}
-                  </div>
                 </div>
 
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     {{ form.line_two|as_crispy_field }}
+                      {{ form.line_three|as_crispy_field }}
                   </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_two_quantity|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_two_unit_price|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_two_total_price|as_crispy_field }}
-                  </div>
-                </div>
+
 
                 <div class="form-row">
-                  <div class="form-group col-md-5">
-                    {{ form.line_three|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_three_quantity|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_three_unit_price|as_crispy_field }}
-                  </div>
-                  <div class="form-group col-md-2">
-                    {{ form.line_three_total_price|as_crispy_field }}
+                  <div class="form-group col-md-11">
+                    {{ form.line_two_quantity|as_crispy_field }}
+                      {{ form.line_three_quantity|as_crispy_field }}
                   </div>
                 </div>
 
@@ -94,17 +70,16 @@
                        <div class="form-group col-md-12">
                     {{ form.paid|as_crispy_field }}
                   </div>
-                  <div class="form-group col-md-12">
-                    {{ form.total|as_crispy_field }}
-                  </div>
                 </div>
+                    <div class="form-group col-md-12">
                 <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
 
                 <!-- <input type="submit" value='Submit'/>   -->
             </div>
         </div>
     </form>
 </div>
-
+</div>
 </body>
 </html>

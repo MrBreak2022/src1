@@ -4,8 +4,9 @@ from .forms import InvoiceForm
 
 # Register your models here.
 class InvoiceAdmin(admin.ModelAdmin):
-    list_display = ['company_name','invoice_number','name', 'invoice_date']
+    list_display = ['name', 'invoice_number']
     form = InvoiceForm
-    list_filter = ['company_name']
+    list_filter = ['name']
     search_fields = ['name']
-admin.site.register(Invoice, InvoiceAdmin)
+
+admin.site.register(Invoice,InvoiceAdmin)

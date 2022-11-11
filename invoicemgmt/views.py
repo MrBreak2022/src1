@@ -12,7 +12,7 @@ def home(request):
 	title = 'Home'
 	total_invoices = Invoice.objects.count()
 	total_stocks = Stock.objects.count()
-	queryset1 = Stock.objects.order_by('-category')[:3]
+	queryset1 = Stock.objects.order_by('-set_price')[:4]
 	queryset = Invoice.objects.order_by('-invoice_date_created')[:3]
 	context = {
 	"title": title,

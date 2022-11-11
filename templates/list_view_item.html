@@ -11,20 +11,22 @@
 {% include 'navbar.html' %}
 <br><br><br>
 <h1>Inventory List:</h1>
-<table>
+<table class="table table-striped">
         <thead>
           <tr>
               <th>CATEGORY</th>
             <th>ITEM NAME</th>
-            <th>QUANTITY</th>
+              <th>QUANTITY</th>
+              <th>PRICE</th>
               <th>ACTION</th>
           </tr>
         </thead>
 	{% for instance in queryset %}
         <tr>
         <td>{{instance.category}}</td>
-	    <td>{{instance.item_name}}</td>
+            <td><button class="btn btn-success"><a href="{% url 'update_items' instance.id %}">{{instance.item_name}}</a></button></td>
 	    <td>{{instance.quantity}}</td>
+            <td>PHP {{instance.set_price}}</td>
         <td><a class="btn btn-danger" type="submit" href="{% url 'delete_stock' instance.id %}">Delete</a></td>
         </tr>
 	{% endfor %}

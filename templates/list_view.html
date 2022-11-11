@@ -18,28 +18,36 @@
     {{form|crispy}}
         <input type="submit" value='Search'/>
     </form>
-    <table>
+    <table class="table table-striped">
         <thead>
           <tr>
             <th>INVOICE NUMBER</th>
-            <th>COMPANY NAME</th>
-              <th>CUSTOMER NAME</th>
+              <th>CLIENT NAME</th>
             <th>DATE CREATED</th>
               <th>INVOICE TYPE</th>
               <th>Payment Status</th>
-            <th>TOTAL</th>
+              <th>LINE ONE</th>
+              <th>LINE ONE QUANTITY</th>
+              <th>LINE TWO</th>
+              <th>LINE TWO QUANTITY</th>
+              <th>LINE THREE</th>
+              <th>LINE THREE QUANTITY</th>
               <th>ACTION</th>
           </tr>
         </thead>
 	{% for instance in queryset %}
         <tr>
 	    <td>{{instance.invoice_number}}</td>
-	    <td>{{instance.company_name}}</td>
             <td>{{instance.name}}</td>
 	    <td>{{instance.invoice_date_created}}</td>
 	    <td>{{instance.invoice_type}}</td>
             <td>{{ instance.paid }}</td>
-	    <td> PHP {{instance.total}}</td>
+            <td>{{ instance.line_one }}</td>
+            <td>{{ instance.line_one_quantity }}</td>
+            <td>{{ instance.line_two }}</td>
+            <td>{{ instance.line_two_quantity }}</td>
+            <td>{{ instance.line_three }}</td>
+            <td>{{ instance.line_three_quantity }}</td>
             <td><a class="btn btn-danger" type="submit" href="{% url 'delete_invoice' instance.id %}">Delete</a></td>
         </tr>
 	{% endfor %}

@@ -2,16 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9917c3e3-757c-4e26-8048-039213e00ff8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/migrations/0002_alter_client_category_alter_client_client_name_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/migrations/0003_alter_client_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmgmt/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0003_stock_set_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0004_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0005_delete_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0006_alter_stock_category_alter_stock_set_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0007_alter_stock_item_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0008_alter_stock_item_name_alter_stock_set_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0009_alter_stock_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0010_alter_stock_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invmgmt/migrations/0011_alter_stock_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoicemgmt/migrations/0005_alter_invoice_invoice_date_created.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoicemgmt/migrations/0006_remove_invoice_line_five_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoicemgmt/migrations/0007_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoicemgmt/migrations/0008_delete_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoicemgmt/migrations/0009_alter_invoice_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src - Copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src - Copy/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src - Copy/clientmgmt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientmgmt/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invmgmt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/invmgmt/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/invmgmt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invmgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/invmgmt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invmgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invmgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicemgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoicemgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete_invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete_stock.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_stock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list_view_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_view_item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/invoicemgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invoicemgmt/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/invoicemgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invoicemgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/src/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/src/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/templates/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/templates/add_item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/templates/list_view_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/templates/list_view_item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src - Copy/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -21,8 +100,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,9 +120,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/invmgmt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -134,7 +213,19 @@
       <workItem from="1667893593623" duration="4792000" />
       <workItem from="1667898831756" duration="3033000" />
       <workItem from="1667947682223" duration="2027000" />
-      <workItem from="1667989693678" duration="241000" />
+      <workItem from="1667989693678" duration="3528000" />
+      <workItem from="1667993795970" duration="1895000" />
+      <workItem from="1668033279798" duration="3025000" />
+      <workItem from="1668037551358" duration="1468000" />
+      <workItem from="1668043210193" duration="175000" />
+      <workItem from="1668128662643" duration="98000" />
+      <workItem from="1668128790542" duration="39000" />
+      <workItem from="1668129033757" duration="596000" />
+      <workItem from="1668131064868" duration="545000" />
+      <workItem from="1668133838875" duration="13888000" />
+      <workItem from="1668155177184" duration="4897000" />
+      <workItem from="1668163647761" duration="195000" />
+      <workItem from="1668164124339" duration="521000" />
     </task>
     <servers />
   </component>
@@ -150,30 +241,36 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1667874432225" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1667900360412">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1667990539323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1667900360412" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1667817857553">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1667990539323" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1667990336379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1667817857553" />
-    <state x="553" y="257" key="Github.ShareDialog" timestamp="1666226886861">
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1667990336379" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668131613188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1666226886861" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1667901054993">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668131613188" />
+    <state x="553" y="257" width="260" height="270" key="Github.ShareDialog" timestamp="1668038509061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1667901054993" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1667901177125">
+    <state x="553" y="257" width="260" height="270" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1668038509061" />
+    <state x="259" y="9" key="SettingsEditor" timestamp="1668163752890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1668160047628" />
+    <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1668163752890" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1668160097229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1667901177125" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1667989706467">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1668160097229" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1668163652352">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1667989706467" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1668155182398" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668163652352" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666418911524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

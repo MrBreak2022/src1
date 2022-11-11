@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from invoicemgmt.views import *
-from invmgmt.views import list_stock, add_item, delete_stock
+from invmgmt.views import list_stock, add_item, delete_stock, update_items
+from clientmgmt.views import list_client, add_client, delete_client
 from django.urls import include
 
 
@@ -32,8 +33,13 @@ urlpatterns = [
     path('list_stock/',list_stock, name='list_stock'),
     path('add_item/', add_item, name='add_item'),
     path('delete_stock/<str:pk>/', delete_stock, name="delete_stock"),
+    path('update_items/<str:pk>/', update_items, name="update_items"),
 
     #account
     path('accounts/', include('registration.backends.default.urls')),
 
+    #client app
+    path('list_client/', list_client, name='list_client'),
+    path('add_client/', add_client, name='add_client'),
+    path('delete_client/<str:pk>',delete_client, name='delete_client'),
 ]
