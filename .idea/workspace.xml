@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../src - Copy/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src - Copy/clientmgmt/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" afterDir="false" />
@@ -70,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,7 +175,7 @@
       <workItem from="1668164124339" duration="2556000" />
       <workItem from="1668167678159" duration="1607000" />
       <workItem from="1668169579458" duration="20000" />
-      <workItem from="1668169618161" duration="256000" />
+      <workItem from="1668169618161" duration="620000" />
     </task>
     <servers />
   </component>
@@ -204,15 +203,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668131613188" />
-    <state x="553" y="257" width="260" height="270" key="Github.ShareDialog" timestamp="1668038509061">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="777" y="367" width="260" height="270" key="Github.ShareDialog" timestamp="1668170175952">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="553" y="257" width="260" height="270" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1668038509061" />
-    <state x="259" y="9" key="SettingsEditor" timestamp="1668163752890">
+    <state x="777" y="367" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668170175952" />
+    <state x="259" y="9" key="SettingsEditor" timestamp="1668170242912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1668160047628" />
-    <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1668163752890" />
+    <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1668170242912" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1668160097229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
