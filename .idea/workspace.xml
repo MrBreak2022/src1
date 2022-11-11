@@ -6,8 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../src - Copy/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src - Copy/clientmgmt/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src - Copy/invmgmt/forms.py" afterDir="false" />
@@ -177,7 +176,7 @@
       <workItem from="1668164124339" duration="2556000" />
       <workItem from="1668167678159" duration="1607000" />
       <workItem from="1668169579458" duration="20000" />
-      <workItem from="1668169618161" duration="50000" />
+      <workItem from="1668169618161" duration="256000" />
     </task>
     <servers />
   </component>
@@ -223,10 +222,11 @@
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1668155182398" />
     <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668167681786" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666418911524">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1668169865633">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1666418911524" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1668169865633" />
     <state x="497" y="53" key="svn.repositoryBrowser" timestamp="1666227175750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
